@@ -18,6 +18,6 @@ class String
     #new_array = self.split(/[.?!]/).reject {|string| string.empty?}
     #new_array.length
     new_array = self.split(/[.?!]/)
-    new_array.count
+    new_array.length
   end
 end
